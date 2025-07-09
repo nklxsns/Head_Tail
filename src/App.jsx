@@ -7,7 +7,7 @@ import Layout from "./pages/Layout";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Head_Tail">
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<Home />} />
